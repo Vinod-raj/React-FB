@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './Header';
-import Sidebar from './Sidebar'; 
-import Feed from './Feed'
-import Widget from './Widget';
-import Login from './Login';
-import { useStateValue } from './StateProvider'
+import Header from './Components/Header';
+import Sidebar from './Components/Sidebar'; 
+import Feed from './Components/Feed'
+import Widget from './Components/Widget';
+import Login from './Components/Login';
+import { useStateValue } from './Context/StateProvider'
 
 function App() {
   // eslint-disable-next-line

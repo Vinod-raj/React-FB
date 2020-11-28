@@ -1,11 +1,11 @@
 import { Avatar } from '@material-ui/core'
 import React, { useState} from 'react'
-import './MessageSender.css'
+import '../Styles/MessageSender.css'
 import VideocamIcon from '@material-ui/icons/Videocam';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
-import { useStateValue } from './StateProvider';
-import db from './firebase'
+import { useStateValue } from '../Context/StateProvider';
+import db from '../Firebase/firebase'
 import firebase from 'firebase'
 
 function MessageSender() {

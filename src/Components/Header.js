@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+import '../Styles/Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
 import FlagIcon from '@material-ui/icons/Flag';
@@ -11,7 +11,7 @@ import AddIcon from '@material-ui/icons/Add';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ForumIcon from '@material-ui/icons/Forum';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../Context/StateProvider'
 
 function Header() {
     // eslint-disable-next-line

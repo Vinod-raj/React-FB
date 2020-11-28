@@ -1,6 +1,6 @@
 import React from 'react'
-import './StoryReel.css'
-import Story from './Story'
+import '../Styles/StoryReel.css'
+import Story from '../Components/Story'
 
 function StoryReel() {
     return (

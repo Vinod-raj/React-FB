@@ -1,6 +1,6 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
-import './Story.css'
+import '../Styles/Story.css'
 
 function Story({image, profileSrc, title}) {
     return (

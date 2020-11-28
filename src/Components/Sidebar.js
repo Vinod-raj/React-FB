@@ -1,6 +1,6 @@
 import React from 'react'
-import './Sidebar.css'
-import SidebarRow from './SidebarRow'
+import '../Styles/Sidebar.css'
+import SidebarRow from '../Components/SidebarRow'
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
 import ChatIcon from '@material-ui/icons/Chat';
@@ -8,7 +8,7 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PeopleIcon from '@material-ui/icons/People';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../Context/StateProvider';
 
 function Sidebar() {
     // eslint-disable-next-line
